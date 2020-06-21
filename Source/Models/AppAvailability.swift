@@ -6,6 +6,7 @@
 //  Copyright © 2018 Miles Hollingsworth. All rights reserved.
 //
 
+import Foundation
 import SwiftyJSON
 
 public class AppAvailability: NSObject {

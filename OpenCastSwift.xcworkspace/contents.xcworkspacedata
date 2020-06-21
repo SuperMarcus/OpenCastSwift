@@ -2,9 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Sample Apps.xcodeproj">
+      location = "group:OpenCastSwift.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:/Users/miles/Projects/OpenCastSwift/OpenCastSwift.xcodeproj">
+      location = "group:Sample Apps.xcodeproj">
    </FileRef>
 </Workspace>
