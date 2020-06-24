@@ -30,7 +30,8 @@ let package = Package(
         .target(
             name: "OpenCastSwift",
             dependencies: [
-                "SwiftProtobuf",
+                .product(name: "SwiftProtobuf", package: "SwiftProtobuf"),
+                .product(name: "SwiftProtobufPluginLibrary", package: "SwiftProtobuf"),
                 "SwiftyJSON"
             ],
             path: "Source"
