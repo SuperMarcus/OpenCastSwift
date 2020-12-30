@@ -19,7 +19,7 @@ let package = Package(
         .package(
             name: "SwiftProtobuf",
             url: "https://github.com/apple/swift-protobuf",
-            from: "1.13.0"
+            from: "1.14.0"
         ),
         .package(
             url: "https://github.com/SwiftyJSON/SwiftyJSON",
