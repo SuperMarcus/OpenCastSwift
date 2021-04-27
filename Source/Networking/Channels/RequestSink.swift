@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol RequestDispatchable: class {
+protocol RequestDispatchable: AnyObject {
     func nextRequestId() -> Int
 
     func request(withNamespace namespace: String, destinationId: String, payload: [String: Any]) -> CastRequest

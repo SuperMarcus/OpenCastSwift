@@ -106,7 +106,7 @@ class MultizoneControlChannel: CastChannel {
     }
 }
 
-protocol MultizoneControlChannelDelegate: class {
+protocol MultizoneControlChannelDelegate: AnyObject {
     func channel(_ channel: MultizoneControlChannel, didReceive status: CastMultizoneStatus)
     func channel(_ channel: MultizoneControlChannel, added device: CastMultizoneDevice)
     func channel(_ channel: MultizoneControlChannel, updated device: CastMultizoneDevice)

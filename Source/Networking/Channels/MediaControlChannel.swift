@@ -125,6 +125,6 @@ class MediaControlChannel: CastChannel {
     }
 }
 
-protocol MediaControlChannelDelegate: class {
+protocol MediaControlChannelDelegate: AnyObject {
     func channel(_ channel: MediaControlChannel, didReceive mediaStatus: CastMediaStatus)
 }

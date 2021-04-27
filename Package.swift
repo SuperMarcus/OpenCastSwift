@@ -23,7 +23,7 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/SwiftyJSON/SwiftyJSON",
-            from: "5.0.0"
+            from: "5.0.1"
         )
     ],
     targets: [

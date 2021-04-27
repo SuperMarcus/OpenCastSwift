@@ -90,7 +90,7 @@ class HeartbeatChannel: CastChannel {
     }
 }
 
-protocol HeartbeatChannelDelegate: class {
+protocol HeartbeatChannelDelegate: AnyObject {
     func channelDidConnect(_ channel: HeartbeatChannel)
     func channelDidTimeout(_ channel: HeartbeatChannel)
 }

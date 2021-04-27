@@ -221,7 +221,7 @@ extension NetService {
     }
 }
 
-public protocol CastDeviceScannerDelegate: class {
+public protocol CastDeviceScannerDelegate: AnyObject {
     func deviceDidComeOnline(_ device: CastDevice)
     func deviceDidChange(_ device: CastDevice)
     func deviceDidGoOffline(_ device: CastDevice)

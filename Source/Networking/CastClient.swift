@@ -56,7 +56,7 @@ public class CastRequest: NSObject {
     }
 }
 
-@objc public protocol CastClientDelegate: class {
+@objc public protocol CastClientDelegate: AnyObject {
 
     @objc optional func castClient(_ client: CastClient, willConnectTo device: CastDevice)
     @objc optional func castClient(_ client: CastClient, didConnectTo device: CastDevice)
