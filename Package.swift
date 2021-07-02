@@ -6,7 +6,7 @@ let package = Package(
     name: "OpenCastSwift",
     platforms: [
         .macOS(.v10_11),
-        .iOS(.v11),
+        .iOS(.v12),
         .watchOS(.v4)
     ],
     products: [
@@ -19,7 +19,7 @@ let package = Package(
         .package(
             name: "SwiftProtobuf",
             url: "https://github.com/apple/swift-protobuf",
-            from: "1.16.0"
+            from: "1.17.0"
         ),
         .package(
             url: "https://github.com/SwiftyJSON/SwiftyJSON",
